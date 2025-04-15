@@ -2,6 +2,10 @@
 # Partner 1: Bryce Cephus
 # Partner 2: Bryce Cephus
 
+import unittest
+import calculator
+import math
+
 class TestCalculator(unittest.TestCase):
 
     def test_add(self):
