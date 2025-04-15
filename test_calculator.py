@@ -25,3 +25,6 @@ class TestCalculator(unittest.TestCase):
 
     def test_mod(self):
         self.assertEqual(calculator.mod(10, 3), 1)
+
+if __name__ == '__main__':
+    unittest.main()
