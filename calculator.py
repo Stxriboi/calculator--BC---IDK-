@@ -26,6 +26,8 @@ def mod(x, y):
     return x % y
 
 def logarithm(x, base):
+    if x <= 0 or base <= 0 or base == 1:
+        raise ValueError("Invalid input for logarithm.")
     return math.log(x, base)
 
 def hypotenuse(a, b):
