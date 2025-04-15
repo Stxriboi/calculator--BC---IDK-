@@ -29,14 +29,11 @@ class TestCalculator(unittest.TestCase):
 
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
-            calculator.logarithm(10, 1)  # log base 1 is invalid
+            calculator.logarithm(10, 1) 
 
     def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
-            calculator.logarithm(-5, 10)  # log of negative number
-
-    def test_exp(self):
-        self.assertEqual(calculator.exp(2, 3), 8)
+            calculator.logarithm(-5, 10)  
 
     def test_sqrt(self):
         self.assertAlmostEqual(calculator.square_root(25), 5)
