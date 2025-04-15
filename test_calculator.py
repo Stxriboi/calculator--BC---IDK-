@@ -1,4 +1,4 @@
-# https://github.com/Stxriboi/calculator--BC---IDK-
+# https://github.com/Stxriboi/calculator--BC---IDK-.git
 # Partner 1: Bryce Cephus
 # Partner 2: Bryce Cephus
 
@@ -10,18 +10,18 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.add(2, 3), 5)
 
     def test_sub(self):
-        self.assertEqual(calculator.subtract(5, 3), 2)
+        self.assertEqual(calculator.sub(5, 3), 2)
 
     def test_mul(self):
-        self.assertEqual(calculator.multiply(4, 2), 8)
+        self.assertEqual(calculator.mul(4, 2), 8)
 
     def test_div(self):
-        self.assertEqual(calculator.divide(10, 2), 5)
+        self.assertEqual(calculator.div(10, 2), 5)
         with self.assertRaises(ValueError):
-            calculator.divide(5, 0)
+            calculator.div(5, 0)
 
     def test_exp(self):
-        self.assertEqual(calculator.power(2, 3), 8)
+        self.assertEqual(calculator.exp(2, 3), 8)
 
     def test_mod(self):
         self.assertEqual(calculator.mod(10, 3), 1)
