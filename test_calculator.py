@@ -1,4 +1,4 @@
-# https://github.com/Stxriboi/calculator--BC---IDK-
+# https://github.com/Stxriboi/calculator--BC---IDK-.git
 # Partner 1: Bryce Cephus
 # Partner 2: Bryce Cephus
 
