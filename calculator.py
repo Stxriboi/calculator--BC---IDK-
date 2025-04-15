@@ -1,3 +1,7 @@
+# https://github.com/Stxriboi/lab10--BC---IDK-.git
+# Partner 1: Bryce Cephus
+# Partner 2: N/A
+
 def add(x, y):
     return x + y
 
